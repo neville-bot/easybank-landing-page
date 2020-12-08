@@ -1,0 +1,12 @@
+.collapse navbar-collapse {
+  width: 100%;
+}
+
+.graphic {
+  z-index: -1;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  top: -225px;
+  left: 500px;
+}

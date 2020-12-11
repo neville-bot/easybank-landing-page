@@ -1,7 +1,13 @@
 .collapse navbar-collapse {
   width: 100%;
 }
-
+.container {
+  padding-right: 0%;
+  padding-left: 0%;
+}
+.navbar {
+  width: auto;
+}
 .graphic {
   z-index: -1;
   width: 150px;
@@ -9,4 +15,19 @@
   position: relative;
   top: -225px;
   left: 500px;
+}
+.graphic-mobile {
+  display: hidden;
+}
+@media only screen and (max-width: 375px) {
+  .graphic {
+    display: hidden;
+    /* position: relative;
+    bottom: 900px;
+    right: 315px; */
+  }
+  .graphic-mobile {
+    bottom: 900px;
+    right: 315px;
+  }
 }

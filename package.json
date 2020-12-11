@@ -1,0 +1,19 @@
+{
+  "name": "easybank-landing-page-master",
+  "version": "1.0.0",
+  "description": "Front-end practice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neville-bot/easybank-landing-page.git"
+  },
+  "author": "John Nevin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neville-bot/easybank-landing-page/issues"
+  },
+  "homepage": "https://github.com/neville-bot/easybank-landing-page#readme"
+}

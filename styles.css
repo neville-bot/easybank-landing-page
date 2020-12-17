@@ -27,7 +27,11 @@
     right: 315px; */
   }
   .graphic-mobile {
-    bottom: 900px;
-    right: 315px;
+    z-index: -1;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: -100px;
+    left: -10px;
   }
 }

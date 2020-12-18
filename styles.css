@@ -21,13 +21,17 @@
 .graphic-mobile {
   display: hidden;
 }
+.btn {
+  border-radius: 5px;
+}
 @media only screen and (max-width: 375px) {
-  .graphic {
+  .graphic-desktop {
     display: hidden;
     /* position: relative;
     bottom: 900px;
     right: 315px; */
   }
+  /* background images */
   .graphic-mobile {
     z-index: -1;
     width: 150px;
@@ -35,40 +39,54 @@
     position: relative;
     top: -100px;
   }
+  .image {
+    position: relative;
+    height: 370px;
+    width: 325px;
+    top: -255px;
+    right: -33px;
+    z-index: -1;
+  }
+  /* everything but footer */
   .intro-container {
     display: flex;
     flex-direction: column;
   }
   .mobile-wrapper {
     position: relative;
-    top: 90px;
+    top: -240px;
     align-items: center;
     flex-direction: column;
     justify-content: center;
   }
+  /* sub-header */
   .h1-text {
     justify-content: center;
     padding: 5% 5% 5% 10%;
   }
+  /* all paragraphs */
+  .primary-text {
+    font-style: italic;
+    font-size: 0.8rem;
+    font-weight: 300;
+    padding: 5% 10% 0% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* sub sub header */
   .h2-text {
     justify-content: center;
     padding: 5% 5% 5% 10%;
     font-size: 20px;
   }
+  /* smaller paragraphs */
   .h3-text {
     justify-content: center;
     padding: 5% 5% 5% 10%;
     font-size: 14px;
   }
-  .primary-text {
-    font-style: italic;
-    font-size: 0.8rem;
-    font-weight: 200;
-    padding: 10%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+
   .graphic-wrapper {
     display: flex;
     justify-content: center;

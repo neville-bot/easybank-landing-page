@@ -22,7 +22,8 @@
   display: hidden;
 }
 .btn {
-  border-radius: 5px;
+  border-radius: 22px;
+  width: 150px;
 }
 @media only screen and (max-width: 375px) {
   .graphic-desktop {
@@ -69,34 +70,60 @@
     font-style: italic;
     font-size: 0.8rem;
     font-weight: 300;
-    padding: 5% 10% 0% 10%;
+    padding: 5% 10% 5% 10%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
   }
   /* sub sub header */
   .h2-text {
+    display: flex;
     justify-content: center;
-    padding: 5% 5% 5% 10%;
-    font-size: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 400;
   }
   /* smaller paragraphs */
   .h3-text {
     justify-content: center;
-    padding: 5% 5% 5% 10%;
-    font-size: 14px;
+    padding: 10px 10px 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
   }
-
+  /* smallest text(body for articles) */
+  .h4-text {
+    justify-content: center;
+    padding: 10px 10px 10px 20px;
+    font-size: 12px;
+    font-weight: 300;
+  }
+  .article-pictures {
+    width: 300px;
+    height: 200px;
+  }
+  /* notation beneath pictures */
+  .notation {
+    font-size: 10px;
+    font-style: italic;
+    margin: 20px auto 0px 20px;
+  }
+  svg {
+    justify-content: center;
+  }
+  /* button padding and center */
   .graphic-wrapper {
     display: flex;
     justify-content: center;
-    padding: 10%;
+    padding: 10% 10% 40% 10%;
   }
   .small-paragraphs {
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    padding-left: 20px;
     background-color: rgb(219, 219, 219);
   }
 }

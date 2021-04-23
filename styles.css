@@ -1,3 +1,7 @@
+body {
+  box-sizing: border-box;
+}
+
 .collapse navbar-collapse {
   width: 100%;
 }
@@ -6,6 +10,11 @@
   flex-direction: column;
   padding-right: 0%;
   padding-left: 0%;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px 0 20px;
 }
 .navbar {
   width: auto;
@@ -125,5 +134,14 @@
     justify-content: center;
     padding-left: 20px;
     background-color: rgb(219, 219, 219);
+  }
+  .footer {
+    background-color: hsl(233, 26%, 24%);
+  }
+  .footer-nav {
+    list-style-type: none;
+  }
+  .footer-nav img {
+    color: white;
   }
 }
